@@ -1,4 +1,5 @@
-# GTestSetup
+# GTestSetup  
+See https://github.com/AlexandreBrown/GTestSetupUsingExternalProject/ to setup GTest using ExternalProject instead of downloading the repo manually
 
 ## What was done to achieve this project :  
 
