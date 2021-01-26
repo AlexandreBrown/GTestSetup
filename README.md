@@ -8,6 +8,15 @@ See https://github.com/AlexandreBrown/GTestSetupUsingExternalProject/ to setup G
     - Simply clone the repo using `git clone https://github.com/google/googletest` or download the zip by visiting the repo page.  
     - Ex: from `GTestSetup/GTestSetup/lib` run `git clone https://github.com/google/googletest`
     
+3. Create build directory from the root of the nested GTestSetup folder (eg: GTestSetup/GTestSetup/build).
+  - `mkdir build`
+  - `cd build`
+4. Try to cmake and make to ensure your project is well setup
+  - In a terminal at the project build location, do the following commands:
+    - `cmake ..`
+    - `make`
+  - If no error occured then everything should be setup correctly.  
+
 ## Main setup that was done to achieve this project (from scratch) :  
 
 1. Inside the project folder, create a directory called "lib".
