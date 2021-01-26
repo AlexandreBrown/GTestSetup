@@ -31,4 +31,4 @@ target_link_libraries(GTestSetup gtest gtest_main)
   - See `MyClassTest.cpp` for a sample  
     
 To run the test you can use your IDE :  
-  ![Run tests using IDE](https://ibb.co/nrkwhG6)
+![Run Tests](https://i.ibb.co/8M8mFCN/Screenshot-from-2021-01-25-23-34-06.png)
