@@ -32,10 +32,17 @@ target_link_libraries(GTestSetup gtest gtest_main)
 
 Note: Some other config is needed like setting executable for your app etc, take a look at the CMakeLists for more details.
     
-To run the all the tests inside `MyClassTest` you can use your IDE (you can also run each test individually by using the same button near the test name) :  
-- You can click the play button at the bottom pane to re-run a test (see picture), this will re-compile your project so any change will be taken into account  
-- Alternatively you could use CTest by running `make && make test` which would recompile & run tests using CTest.  
-![Run Tests](https://i.ibb.co/8M8mFCN/Screenshot-from-2021-01-25-23-34-06.png)  
+## Running the tests  
+### Using CLion IDE
+- To run the all the tests inside `MyClassTest` you can use the run button at the test fixture or test name  
+  - You can also right click a folder with tests and run all the tests or you can run individual tests using the green run button  
+  - You can also run tests from the bottom pane that opens up after runnign tests initially  
+   -  ![Run Tests using IDE](https://i.ibb.co/X2TLqRw/Screenshot-from-2021-01-26-01-15-28.png)
+  - Using the IDE to run tests might provide better feedback than other alternatives (subjective)  
+      
+### Using CTest  
+- go into `/build` and run `make && make test`, this will recompile your poject and run all the tests using CTest and give you a command-line print of the result.
+  -   [Run Tests using CTest](https://i.ibb.co/XjWWgxY/Screenshot-from-2021-01-26-01-17-25.png)
   
 ## Known issues and workaround  
 ### Global fixes to try :
