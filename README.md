@@ -18,7 +18,7 @@ target_link_libraries(GTestSetup gtest gtest_main)
 ```  
 4. Reload your CMakeLists (IDE should propose you to reload it)
 
-5. Create build directory from the root of the project.
+5. Create build directory from the root of the nested GTestSetup folder (eg: `GTestSetup/GTestSetup/build`).
   - `mkdir build`
   - `cd build`
 
