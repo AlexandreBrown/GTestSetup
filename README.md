@@ -44,7 +44,7 @@ To run the all the tests inside `MyClassTest` you can use your IDE (you can also
 #### Cannot run tests using play button :
 - Try to right click your test class from the file explorer (inside CLion) and click "Run all in YourClassTest.cpp"  
 - If it doesn't work try running your tests using `make test` from `/build` folder
-#### Cannot find "gtest/gtest.h" / Don't have play button to run test inside my test class  :
+#### Cannot find <gtest/gtest.h> / Don't have play button to run test inside my test class  :
 - Try deleting `/build` and recreating/populating it using steps describe in _Global fixes to try_  
 #### Code change is not reflected (test should fail but passes etc) : 
 - Try `make && make test` from `/build`
