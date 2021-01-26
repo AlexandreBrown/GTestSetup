@@ -31,6 +31,8 @@ target_link_libraries(GTestSetup gtest gtest_main)
   - See `MyClassTest.cpp` for a sample  
     
 To run the all the tests inside `MyClassTest` you can use your IDE (you can also run each test individually by using the same button near the test name) :  
+- You can click the play button at the bottom pane to re-run a test (see picture), this will re-compile your project so any change will be taken into account  
+- Alternatively you could use CTest by running `make && make test` which would recompile & run tests using CTest.  
 ![Run Tests](https://i.ibb.co/8M8mFCN/Screenshot-from-2021-01-25-23-34-06.png)  
   
 ## Known issues and workaround  
