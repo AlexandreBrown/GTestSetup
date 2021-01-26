@@ -1,7 +1,7 @@
 # GTestSetup  
 See https://github.com/AlexandreBrown/GTestSetupUsingExternalProject/ to setup GTest using ExternalProject instead of downloading the repo manually
 
-## Main setup that What was done to achieve this project (from scratch) :  
+## Main setup that was done to achieve this project (from scratch) :  
 
 1. Inside the project folder, create a directory called "lib".
 
