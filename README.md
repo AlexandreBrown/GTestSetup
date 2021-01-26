@@ -44,8 +44,9 @@ target_link_libraries(GTestSetup_test gtest gtest_main pthread)
     - `make`
   - If no error occured then everything should be setup correctly.
 
-7. Start writing unit tests using GTest and make sure to add the test files to the executable of your app in your `CMakeLists.txt`
-  - See `MyClassTest.cpp` for a sample  
+7. Start writing unit tests using GTest and make sure to add the test files to the test executable in your `CMakeLists.txt`
+  - See `MyClassTest.cpp` for a test class sample  
+  - See the `CMakeLists` for more details on how to define your test executable
 
 Note: Some other config is needed like setting executable for your app etc, take a look at the CMakeLists for more details.
     
