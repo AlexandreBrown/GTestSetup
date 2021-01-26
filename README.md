@@ -30,7 +30,7 @@ you have to put:
 add_subdirectory(lib/googletest)
 include_directories(lib/googletest/googletest/include)
 include_directories(lib/googletest/googlemock/include)
-target_link_libraries(GTestSetup gtest gtest_main)
+target_link_libraries(GTestSetup_test gtest gtest_main pthread)
 ```  
 4. Reload your CMakeLists (IDE should propose you to reload it)
 
