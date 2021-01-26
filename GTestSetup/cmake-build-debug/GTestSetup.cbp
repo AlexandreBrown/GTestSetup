@@ -340,9 +340,6 @@
 		<Unit filename="/home/brownthedev/Documents/GTestSetup/GTestSetup/lib/googletest/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="/home/brownthedev/Documents/GTestSetup/GTestSetup/main.cpp">
-			<Option target="GTestSetup"/>
-		</Unit>
 		<Unit filename="/home/brownthedev/Documents/GTestSetup/GTestSetup/main/MyClass.cpp">
 			<Option target="GTestSetup"/>
 		</Unit>

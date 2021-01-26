@@ -241,33 +241,6 @@ gtest/fast:
 	$(MAKE) $(MAKESILENT) -f lib/googletest/googletest/CMakeFiles/gtest.dir/build.make lib/googletest/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GTestSetup.dir/build.make CMakeFiles/GTestSetup.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GTestSetup.dir/build.make CMakeFiles/GTestSetup.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GTestSetup.dir/build.make CMakeFiles/GTestSetup.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 main/MyClass.o: main/MyClass.cpp.o
 
 .PHONY : main/MyClass.o
@@ -339,9 +312,6 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 	@echo "... main/MyClass.o"
 	@echo "... main/MyClass.i"
 	@echo "... main/MyClass.s"

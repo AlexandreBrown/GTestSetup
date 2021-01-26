@@ -1,8 +1,5 @@
 #include <gtest/gtest.h>
-#include <gmock/gmock.h>
 #include "../main/MyClass.h"
-
-using testing::Eq;
 
 namespace {
     class MyClassTest : public testing::Test {
@@ -16,9 +13,19 @@ namespace {
     };
 }
 
-TEST_F(MyClassTest, GetResult_returns_42) {
+TEST_F(MyClassTest, GetResult_returns_42_plus_value_of_input) {
 
-    auto result = myClass.GetResult();
+    auto input = std::rand();
+    auto expectedResult = 42 + input;
 
-    ASSERT_EQ(42, result);
+    auto result = myClass.GetResult(input);
+
+    ASSERT_EQ(expectedResult, result);
+}
+
+TEST_F(MyClassTest, GetName_returns_Alex) {
+
+    auto name = myClass.GetName();
+
+    ASSERT_EQ("Alex", name);
 }

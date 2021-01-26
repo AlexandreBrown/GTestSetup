@@ -1,9 +1,9 @@
-cmake_minimum_required(VERSION 3.17)
+cmake_minimum_required(VERSION 3.5)
 project(GTestSetup)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp main/MyClass.cpp main/MyClass.h)
+set(SOURCE_FILES main/MyClass.cpp main/MyClass.h)
 set(TEST_FILES test/MyClassTest.cpp)
 
 add_executable(GTestSetup ${SOURCE_FILES} ${TEST_FILES})

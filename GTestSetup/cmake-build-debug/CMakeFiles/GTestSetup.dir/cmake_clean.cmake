@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/GTestSetup.dir/main.cpp.o"
   "CMakeFiles/GTestSetup.dir/main/MyClass.cpp.o"
   "CMakeFiles/GTestSetup.dir/test/MyClassTest.cpp.o"
   "GTestSetup"

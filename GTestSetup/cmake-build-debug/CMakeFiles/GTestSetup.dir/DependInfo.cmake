@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/brownthedev/Documents/GTestSetup/GTestSetup/main.cpp" "/home/brownthedev/Documents/GTestSetup/GTestSetup/cmake-build-debug/CMakeFiles/GTestSetup.dir/main.cpp.o"
   "/home/brownthedev/Documents/GTestSetup/GTestSetup/main/MyClass.cpp" "/home/brownthedev/Documents/GTestSetup/GTestSetup/cmake-build-debug/CMakeFiles/GTestSetup.dir/main/MyClass.cpp.o"
   "/home/brownthedev/Documents/GTestSetup/GTestSetup/test/MyClassTest.cpp" "/home/brownthedev/Documents/GTestSetup/GTestSetup/cmake-build-debug/CMakeFiles/GTestSetup.dir/test/MyClassTest.cpp.o"
   )
