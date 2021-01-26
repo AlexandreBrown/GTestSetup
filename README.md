@@ -1,7 +1,8 @@
 # GTestSetup  
 See https://github.com/AlexandreBrown/GTestSetupUsingExternalProject/ to setup GTest using ExternalProject instead of downloading the repo manually
 ## Setup after cloning :
-1. Inside the project folder (eg: `GTestSetup/GTestSetup`), create a directory called "lib".  
+1. Inside the project folder (eg: `GTestSetup/GTestSetup`), create a directory called "lib". 
+  - `GTestSetup/GTestSetup/lib`
 
 2. Inside this newly created directory (lib), put the googletest content form the official repository https://github.com/google/googletest.
     - Simply clone the repo using `git clone https://github.com/google/googletest` or download the zip by visiting the repo page. 
