@@ -29,6 +29,8 @@ target_link_libraries(GTestSetup gtest gtest_main)
 
 7. Start writing unit tests using GTest and make sure to add the test files to the executable of your app in your `CMakeLists.txt`
   - See `MyClassTest.cpp` for a sample  
+
+Note: Some other config is needed like setting executable for your app etc, take a look at the CMakeLists for more details.
     
 To run the all the tests inside `MyClassTest` you can use your IDE (you can also run each test individually by using the same button near the test name) :  
 - You can click the play button at the bottom pane to re-run a test (see picture), this will re-compile your project so any change will be taken into account  
