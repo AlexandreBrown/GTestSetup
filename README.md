@@ -55,6 +55,6 @@ Note: Some other config is needed like setting executable for your app etc, take
 #### Cannot find <gtest/gtest.h> / Don't have play button to run test inside my test class  :
 - Try deleting `/build` and recreating/populating it using steps describe in _Global fixes to try_  
 #### Code change is not reflected (test should fail but passes etc) : 
-- Try `make && make test` from `/build`  
+- Try re-running the test, maybe it was ran with outdated code or try `make && make test` from `/build`  
 #### Could not build /cmake-build-debug does not exist :  
 - Try File->Invalidate cache & restart
