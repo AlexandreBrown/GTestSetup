@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/GTestSetup_test.dir/src/main/MyClass.cpp.o CMakeFiles/GTestSetup_test.dir/src/test/MyClassTest.cpp.o  -o GTestSetup_test  lib/libgtestd.a lib/libgtest_maind.a -lpthread lib/libgtestd.a -lpthread 
