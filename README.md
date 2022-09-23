@@ -1,5 +1,5 @@
 # GTestSetup  
-See https://github.com/AlexandreBrown/GTestSetupUsingExternalProject/ to setup GTest using ExternalProject instead of downloading the repo manually
+See https://github.com/AlexandreBrown/GTestSetupRemoteDownload **(recommended)** to setup GTest without having to manually clone the repository of GTest.
 ## Setup after cloning :
 1. Inside the project folder (eg: `GTestSetup/GTestSetup`), create a directory called "lib". 
   - `GTestSetup/GTestSetup/lib`
